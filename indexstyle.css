@@ -1,0 +1,32 @@
+body {
+	font-family:Verdana;
+    color: #f4f4f4;
+}
+
+
+.topnav a {
+color: #92867a;
+padding: 16px;
+padding-right: 40px;
+}
+
+.topnav a:hover {
+	color: #fff3fc;
+	font-size: 30px;
+}
+
+.pgheader h1{
+	font-size: 60px;
+	padding-left: 0px;
+	font-family: file;
+}
+
+.quote q {
+	color: #92867a;
+	position: absolute; /*Experiment with relative and absolute positioning*/
+	width: 800px;
+	bottom: 0;
+	padding-left: 40%;
+	padding-bottom: 10%;
+	font-size:38px;
+}
