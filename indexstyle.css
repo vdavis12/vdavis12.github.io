@@ -30,3 +30,7 @@ padding-right: 40px;
 	padding-bottom: 10%;
 	font-size:38px;
 }
+
+input:hover {
+	background-color: #d3e3d6;
+}
