@@ -40,6 +40,31 @@ color: #3a2f24;
   text-align: center;
 }
 
+.art .container{
+	box-sizing:border-box;
+	background-color: #fff3fc;
+	padding: 0px;
+	color: #3a2f24;
+	font-size: 14px;
+	margin: 5px;
+	width: 100%;
+	padding: 10px;
+}
+.art .container p {
+	color: #d3e3d6;
+}
+.art .container h2{
+	color: #6f8e88;
+}
+	
+
+input[type=text], select, textarea {
+	border: 1px solid #ccc;
+	width: 100%;
+	border-radius: 4px;
+	resize: vertical;
+}
+
 footer{
 background-color: #d3e3d6;
 text-align:center;
