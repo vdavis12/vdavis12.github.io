@@ -65,10 +65,6 @@ input[type=text], select, textarea {
 	resize: vertical;
 }
 
-label {
-	padding: 12px;
-	display: inline-block;
-}
 
 footer{
 background-color: #d3e3d6;
