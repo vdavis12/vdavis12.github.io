@@ -70,7 +70,7 @@ label {
 	display: inline-block;
 }
 
-input[type=submit]{
+.art .class form input[type=submit]{
   background-color: #6f8e88;
   padding: 12px 20px;
   cursor: pointer;
