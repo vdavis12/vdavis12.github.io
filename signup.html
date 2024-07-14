@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Running with V</title>
+	<!--Set metadata of the document--!>
+	<meta name="keywords" content="run, 5k, 10k, couch to 5k, half marathon, new runners, beginner running tips"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Link to CSS file(s)--!>
+	<link href="./resources/css/indexstyle.css" rel="stylesheet" type="text/css">
+	<link href="./resources/css/indexformat.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  
+  <body>
+     <div class="pgheader"> <!--Use sectioning, grouping, and text-level elements --!>
+      <h1>Run with V!</h1>
+      <div class="topnav"> <!--navigation list with hypertext links--!>
+       <a href="./aboutpg.html">About Me</a>
+	  <a href="./pastracespg.html">Gallery</a>
+      </div>
+    </div>
+	
+	<div style="overflow:auto">
+	
+	  <div class="left">
+	   <img src="resources/aboutme.jpeg" alt="picture of Veronica" width="375" height="495">
+	  </div>
+	
+	
+	  <div class="art">
+	    <div class="container">
+        <h2>Join Me!</h2>    
+		<p>Stay Connected and build a commmunity!</p>
+		<form> <!--form with multiple field sets--!>
+		  <div class="row">
+		    <div class="col-25">
+			<label for="fname">Enter your Name:</label>
+			<div class="col-75">
+			  <input type="text" id="fullname" placeholder="Enter Full Name..." required><!--input type:text--!><!--Validate data with patterns and field lengths--!>
+			</div>
+		  </div>
+		  
+		  <div class="row">
+		    <div class="col-25">
+			<label for="eaddress">Enter your Name:</label>
+			<div class="col-75">
+			  <input type="address" id="eaddress" placeholder="Enter email..." required><!-- input that is set for a mobile keyboard type-email--!>
+			</div>
+		  </div>
+	
+		   <div class="row">
+		    <div class="col-25">
+			<label for="Date">Todays Date(for accountability):</label>
+			<div class="col-75">
+			  <input type="date" id="Today" name="date"><!--input type:Date--!>
+			</div>
+		  </div>
+		  
+		  <div class="row">
+		    <div class="col-25">
+		      <label for="Level">Skill Level</label>
+		    </div>
+		  <div class="col-75">
+		    <select id="level" name="level"> <!--Create a selection list--!>
+		      <option value="Beginner">Beginner</option>
+		      <option value="mid-level">Mid-level Runner</option>
+		      <option value="Experienced">Experienced Runner(running for 5+years)</option>
+		      <option value="returning">Returning after an extended break</option>
+		    </select>
+          </div>
+		  </div>
+		  <div class="col-25">
+		    <label for="Running community">Have you ever been apart of a running community</label>		
+		  </div>
+		  <div class="col-75">
+			<input type="radio" id="yes" name="social" value="yes"> <!-- radio buttons--!>
+			<label for="yes">Yes</label>
+			<br>
+			<input type="radio" id="no" name="social" value="No">
+			<label for="No">No</label>
+			<br>
+		  
+		  <div class="row">
+		    <div class="col-25">
+              <label for="more">Tell Me More about your running experience or why you want to start running</label>
+			</div>
+			<div class="col-75">
+			  <textarea id="more" name="more" placeholder="Write Something..." style="height:90px">
+			  </textarea><!--a text area--!>
+			</div>
+            </div>
+			<br>
+			<div class="row">
+			  <input type="submit" value="Submit"><!-- submit button--!>
+			</div>
+			
+		</form>	
+	  </div>
+	
+	<footer>
+	Walk &#8226;<!--character references--!> Run &amp; Move with V
+	</footer>
+  </body>
+</html>
